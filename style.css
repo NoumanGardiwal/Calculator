@@ -1,0 +1,44 @@
+body
+{
+	background-color:  #66a3ff;
+}
+
+.container
+{
+	  display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      margin: 50px;
+      
+  }
+
+.grid-item
+{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	height: 300px;
+	width: 200px;
+	border: 3px solid black;
+	padding: 10px;
+	margin: 5px;
+	
+}
+
+.grid-item btn 
+{
+	margin: 5px;
+}
+
+.grid-item .item2 
+{	grid-column-end: span 2;
+}
+
+.grid-item .item18 
+{	grid-column-end: span 2;
+}
+
+.grid-item .item19
+{
+	grid-column-end: span 4;
+}
